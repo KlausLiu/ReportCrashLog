@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25DD15151807C9C400AD20CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DD15141807C9C400AD20CE /* Foundation.framework */; };
+		25DD15171807C9C400AD20CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DD15161807C9C400AD20CE /* CoreGraphics.framework */; };
+		25DD15191807C9C400AD20CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DD15181807C9C400AD20CE /* UIKit.framework */; };
+		25DD151F1807C9C400AD20CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25DD151D1807C9C400AD20CE /* InfoPlist.strings */; };
+		25DD15211807C9C400AD20CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DD15201807C9C400AD20CE /* main.m */; };
+		25DD15251807C9C400AD20CE /* KAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DD15241807C9C400AD20CE /* KAppDelegate.m */; };
+		25DD15271807C9C400AD20CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25DD15261807C9C400AD20CE /* Images.xcassets */; };
+		25DD152E1807C9C400AD20CE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DD152D1807C9C400AD20CE /* XCTest.framework */; };
+		25DD152F1807C9C400AD20CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DD15141807C9C400AD20CE /* Foundation.framework */; };
+		25DD15301807C9C400AD20CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DD15181807C9C400AD20CE /* UIKit.framework */; };
+		25DD15381807C9C400AD20CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25DD15361807C9C400AD20CE /* InfoPlist.strings */; };
+		25DD153A1807C9C400AD20CE /* ReportCrashLogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DD15391807C9C400AD20CE /* ReportCrashLogTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25DD15311807C9C400AD20CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25DD15091807C9C400AD20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25DD15101807C9C400AD20CE;
+			remoteInfo = ReportCrashLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25DD15111807C9C400AD20CE /* ReportCrashLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReportCrashLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DD15141807C9C400AD20CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25DD15161807C9C400AD20CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25DD15181807C9C400AD20CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25DD151C1807C9C400AD20CE /* ReportCrashLog-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReportCrashLog-Info.plist"; sourceTree = "<group>"; };
+		25DD151E1807C9C400AD20CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25DD15201807C9C400AD20CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25DD15221807C9C400AD20CE /* ReportCrashLog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReportCrashLog-Prefix.pch"; sourceTree = "<group>"; };
+		25DD15231807C9C400AD20CE /* KAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAppDelegate.h; sourceTree = "<group>"; };
+		25DD15241807C9C400AD20CE /* KAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAppDelegate.m; sourceTree = "<group>"; };
+		25DD15261807C9C400AD20CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		25DD152C1807C9C400AD20CE /* ReportCrashLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReportCrashLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DD152D1807C9C400AD20CE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		25DD15351807C9C400AD20CE /* ReportCrashLogTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReportCrashLogTests-Info.plist"; sourceTree = "<group>"; };
+		25DD15371807C9C400AD20CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25DD15391807C9C400AD20CE /* ReportCrashLogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReportCrashLogTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25DD150E1807C9C400AD20CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DD15171807C9C400AD20CE /* CoreGraphics.framework in Frameworks */,
+				25DD15191807C9C400AD20CE /* UIKit.framework in Frameworks */,
+				25DD15151807C9C400AD20CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25DD15291807C9C400AD20CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DD152E1807C9C400AD20CE /* XCTest.framework in Frameworks */,
+				25DD15301807C9C400AD20CE /* UIKit.framework in Frameworks */,
+				25DD152F1807C9C400AD20CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25DD15081807C9C400AD20CE = {
+			isa = PBXGroup;
+			children = (
+				25DD151A1807C9C400AD20CE /* ReportCrashLog */,
+				25DD15331807C9C400AD20CE /* ReportCrashLogTests */,
+				25DD15131807C9C400AD20CE /* Frameworks */,
+				25DD15121807C9C400AD20CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25DD15121807C9C400AD20CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25DD15111807C9C400AD20CE /* ReportCrashLog.app */,
+				25DD152C1807C9C400AD20CE /* ReportCrashLogTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25DD15131807C9C400AD20CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25DD15141807C9C400AD20CE /* Foundation.framework */,
+				25DD15161807C9C400AD20CE /* CoreGraphics.framework */,
+				25DD15181807C9C400AD20CE /* UIKit.framework */,
+				25DD152D1807C9C400AD20CE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25DD151A1807C9C400AD20CE /* ReportCrashLog */ = {
+			isa = PBXGroup;
+			children = (
+				25DD15231807C9C400AD20CE /* KAppDelegate.h */,
+				25DD15241807C9C400AD20CE /* KAppDelegate.m */,
+				25DD15261807C9C400AD20CE /* Images.xcassets */,
+				25DD151B1807C9C400AD20CE /* Supporting Files */,
+			);
+			path = ReportCrashLog;
+			sourceTree = "<group>";
+		};
+		25DD151B1807C9C400AD20CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25DD151C1807C9C400AD20CE /* ReportCrashLog-Info.plist */,
+				25DD151D1807C9C400AD20CE /* InfoPlist.strings */,
+				25DD15201807C9C400AD20CE /* main.m */,
+				25DD15221807C9C400AD20CE /* ReportCrashLog-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25DD15331807C9C400AD20CE /* ReportCrashLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				25DD15391807C9C400AD20CE /* ReportCrashLogTests.m */,
+				25DD15341807C9C400AD20CE /* Supporting Files */,
+			);
+			path = ReportCrashLogTests;
+			sourceTree = "<group>";
+		};
+		25DD15341807C9C400AD20CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25DD15351807C9C400AD20CE /* ReportCrashLogTests-Info.plist */,
+				25DD15361807C9C400AD20CE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25DD15101807C9C400AD20CE /* ReportCrashLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25DD153D1807C9C400AD20CE /* Build configuration list for PBXNativeTarget "ReportCrashLog" */;
+			buildPhases = (
+				25DD150D1807C9C400AD20CE /* Sources */,
+				25DD150E1807C9C400AD20CE /* Frameworks */,
+				25DD150F1807C9C400AD20CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReportCrashLog;
+			productName = ReportCrashLog;
+			productReference = 25DD15111807C9C400AD20CE /* ReportCrashLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25DD152B1807C9C400AD20CE /* ReportCrashLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25DD15401807C9C400AD20CE /* Build configuration list for PBXNativeTarget "ReportCrashLogTests" */;
+			buildPhases = (
+				25DD15281807C9C400AD20CE /* Sources */,
+				25DD15291807C9C400AD20CE /* Frameworks */,
+				25DD152A1807C9C400AD20CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25DD15321807C9C400AD20CE /* PBXTargetDependency */,
+			);
+			name = ReportCrashLogTests;
+			productName = ReportCrashLogTests;
+			productReference = 25DD152C1807C9C400AD20CE /* ReportCrashLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25DD15091807C9C400AD20CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = K;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = klaus;
+				TargetAttributes = {
+					25DD152B1807C9C400AD20CE = {
+						TestTargetID = 25DD15101807C9C400AD20CE;
+					};
+				};
+			};
+			buildConfigurationList = 25DD150C1807C9C400AD20CE /* Build configuration list for PBXProject "ReportCrashLog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25DD15081807C9C400AD20CE;
+			productRefGroup = 25DD15121807C9C400AD20CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25DD15101807C9C400AD20CE /* ReportCrashLog */,
+				25DD152B1807C9C400AD20CE /* ReportCrashLogTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25DD150F1807C9C400AD20CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DD151F1807C9C400AD20CE /* InfoPlist.strings in Resources */,
+				25DD15271807C9C400AD20CE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25DD152A1807C9C400AD20CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DD15381807C9C400AD20CE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25DD150D1807C9C400AD20CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DD15251807C9C400AD20CE /* KAppDelegate.m in Sources */,
+				25DD15211807C9C400AD20CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25DD15281807C9C400AD20CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DD153A1807C9C400AD20CE /* ReportCrashLogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25DD15321807C9C400AD20CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25DD15101807C9C400AD20CE /* ReportCrashLog */;
+			targetProxy = 25DD15311807C9C400AD20CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25DD151D1807C9C400AD20CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25DD151E1807C9C400AD20CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25DD15361807C9C400AD20CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25DD15371807C9C400AD20CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25DD153B1807C9C400AD20CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25DD153C1807C9C400AD20CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25DD153E1807C9C400AD20CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReportCrashLog/ReportCrashLog-Prefix.pch";
+				INFOPLIST_FILE = "ReportCrashLog/ReportCrashLog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25DD153F1807C9C400AD20CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReportCrashLog/ReportCrashLog-Prefix.pch";
+				INFOPLIST_FILE = "ReportCrashLog/ReportCrashLog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		25DD15411807C9C400AD20CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ReportCrashLog.app/ReportCrashLog";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReportCrashLog/ReportCrashLog-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ReportCrashLogTests/ReportCrashLogTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		25DD15421807C9C400AD20CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ReportCrashLog.app/ReportCrashLog";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReportCrashLog/ReportCrashLog-Prefix.pch";
+				INFOPLIST_FILE = "ReportCrashLogTests/ReportCrashLogTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25DD150C1807C9C400AD20CE /* Build configuration list for PBXProject "ReportCrashLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DD153B1807C9C400AD20CE /* Debug */,
+				25DD153C1807C9C400AD20CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25DD153D1807C9C400AD20CE /* Build configuration list for PBXNativeTarget "ReportCrashLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DD153E1807C9C400AD20CE /* Debug */,
+				25DD153F1807C9C400AD20CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		25DD15401807C9C400AD20CE /* Build configuration list for PBXNativeTarget "ReportCrashLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DD15411807C9C400AD20CE /* Debug */,
+				25DD15421807C9C400AD20CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25DD15091807C9C400AD20CE /* Project object */;
+}
